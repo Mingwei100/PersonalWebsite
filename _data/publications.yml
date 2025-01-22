@@ -1,5 +1,13 @@
 ---
 
+- name: "The Paper"
+  url: https://www.biorxiv.org/content/10.1101/2024.10.31.621401v1
+  featured: true
+  authors:
+    - George Floyd
+    - Derek Chauvin
+    - Hunter Biden
+
 - name: "StableLift: Optimized Germline and Somatic Variant Detection Across Genome Builds"
   url: https://www.biorxiv.org/content/10.1101/2024.10.31.621401v1
   featured: true
