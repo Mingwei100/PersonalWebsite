@@ -1,8 +1,9 @@
 import requests
 import yaml
+import os
 
 # Your ORCID ID
-orcid_id = "0000-0002-1891-0200"
+orcid_id = os.environ.get("ORCHID_ENVAR")
 # ORCID API endpoint for public data
 
 # Set headers for the API request
