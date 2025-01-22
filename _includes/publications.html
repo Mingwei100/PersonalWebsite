@@ -6,9 +6,9 @@
           <p>
               <strong>Title:</strong>
               {% if item.url %}
-                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.name }}</a>
+                <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
               {% else %}
-                {{ item.name }}
+                {{ item.title }}
               {% endif %}
           </p>
           <p>
